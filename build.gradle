@@ -10,7 +10,7 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = 'com.jduff.FileDeDuplicator'
+mainClassName = 'org.jduff.FileDeDuplicator'
 
 sourceCompatibility = 1.7
 
