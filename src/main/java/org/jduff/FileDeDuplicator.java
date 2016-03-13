@@ -191,7 +191,7 @@ public class FileDeDuplicator {
         FileDeDuplicator fdd = new FileDeDuplicator();
 
         if (args.length == 0) {
-            System.err.println("Usgae: pkgr [readonly dirs] dir");
+            System.err.println("Usage: jduff [readonly dirs] dir");
             System.exit(-1);
         } else if (args.length == 1) {
             fdd.addDir(args[0]);
